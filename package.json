@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/grindjson",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Grind lightweight json statistics from stdin samples.",
+  "bin": {
+    "grindjson": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/grindjson.git"
+  },
+  "homepage": "https://theworker02.github.io/grindjson/",
+  "keywords": [
+    "grind",
+    "json",
+    "stat",
+    "cli",
+    "toolkit"
+  ]
+}
